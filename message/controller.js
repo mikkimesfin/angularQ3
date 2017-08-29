@@ -8,27 +8,23 @@
 
       vm.$onInit = function() {
         var data = angular.fromJson(json)
-        vm.messages=data
-        // vm.messages = data
+        vm.messages= data
         console.log(data);
     }
-    //   vm.starMessage = function(message){
-    //   var status = message.starred;
-    //   message.starred= !message.starred
-    // }
+
+      vm.checkMessage = function(selected) {
+        console.log(selected);
+      }
+
+      vm.starMessage = function(message){
+      var status = message.starred;
+      message.starred = !message.starred
+      console.log(status)
 
 
-    // vm.showMessages = function() {
-    //   if(vm.newTodo && vm.newTodo.title && vm.newTodo.priority) {
-    //     vm.todos.push({
-    //       title: vm.newTodo.title,
-    //       priority: vm.newTodo.priority
-    //     });
-    //
-    //     vm.newTodo.title = '';
-    //     vm.newTodo.priority = '';
-    //   }
-    // }
+
+    }
+
 
   })
 }());

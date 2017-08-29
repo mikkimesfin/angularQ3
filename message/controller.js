@@ -8,6 +8,7 @@
 
       vm.$onInit = function() {
         var data = angular.fromJson(json)
+        vm.messages=data
         // vm.messages = data
         console.log(data);
     }

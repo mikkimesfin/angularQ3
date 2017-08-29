@@ -1,11 +1,7 @@
-
-
 (function() {
   'use strict';
   angular.module('angular1.6-inbox', )
-  .controller('formController', function(){
+  .controller('toolbarController', function(){
     console.log('hey');
-
-
-})
+  })
 }());

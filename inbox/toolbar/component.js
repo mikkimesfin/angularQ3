@@ -7,7 +7,8 @@
     controller: 'toolbarController',
     templateUrl: 'inbox/toolbar/temp.html',
     bindings: {
-      checkall: '&'
+      checkall: '&',
+      readall: '&'
     }
     // in the inbox.template.html write: <toolbar dis="$ctrl.disabled"><toolbar>
 

@@ -16,5 +16,10 @@
       }
     }
     //all logic should go in here
+    vm.readAll= function(){
+      for (var i = 0; i < vm.messages.length; i++) {
+        vm.messages[i].read = true
+      }
+    }
   })
 }());

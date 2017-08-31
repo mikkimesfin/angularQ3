@@ -21,5 +21,10 @@
         vm.messages[i].read = true
       }
     }
+    vm.unreadAll= function(){
+      for (var i = 0; i < vm.messages.length; i++) {
+        vm.messages[i].read = false
+      }
+    }
   })
 }());

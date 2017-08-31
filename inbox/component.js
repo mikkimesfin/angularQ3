@@ -5,7 +5,5 @@
   .component('inbox', {
     controller: 'inboxController',
     templateUrl: 'inbox/temp.html'
-
-
   })
 }())

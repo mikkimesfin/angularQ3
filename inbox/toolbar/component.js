@@ -8,7 +8,8 @@
     templateUrl: 'inbox/toolbar/temp.html',
     bindings: {
       checkall: '&',
-      readall: '&'
+      readall: '&',
+      unreadall: '&'
     }
     // in the inbox.template.html write: <toolbar dis="$ctrl.disabled"><toolbar>
 

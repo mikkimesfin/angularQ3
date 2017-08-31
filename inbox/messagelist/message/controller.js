@@ -1,8 +1,9 @@
 (function() {
   'use strict';
-  angular.module('angular1.6-inbox', )
+  console.log('message controller');
+  angular.module('angular1.6-inbox')
   .controller('msgController', function(){
-    console.log('hey');
+    console.log('message controller');
 
       const vm = this;
        console.log(vm);
@@ -12,9 +13,7 @@
     //     console.log(data);
     // }
 
-      vm.checkMessage = function(selected) {
-        console.log(selected);
-      }
+      
 
       vm.starMessage = function(message){
       // var status = message.starred;

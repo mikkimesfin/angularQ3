@@ -1,18 +1,10 @@
-
-
-
 (function() {
   'use strict';
-  angular.module('angular1.6-inbox', )
+  angular.module('angular1.6-inbox' )
   .controller('messagelistController', function(){
-    console.log('hey');
-    console.log('mikki')
+    console.log('messagelist controller');
     const vm = this
+    console.log(vm.messages);
 
-              vm.$onInit = function() {
-                var data = angular.fromJson(json)
-                vm.messages= data
-                console.log(data);
-            }
   })
 }());

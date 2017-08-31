@@ -1,9 +1,13 @@
 (function(){
   'use strict'
-  angular.module('angular1.6-inbox', )
+  console.log('messagelist component');
+  angular.module('angular1.6-inbox' )
   .component('messagelist', {
     controller: 'messagelistController',
-    templateUrl: 'inbox/messagelist/temp.html'
+    templateUrl: 'inbox/messagelist/temp.html',
+    bindings: {
+      messages: "<"
+    }
 
   })
 }())

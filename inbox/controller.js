@@ -26,5 +26,11 @@
         vm.messages[i].read = false
       }
     }
+    vm.addLabel= function(){
+      if (vm.messages[i].selected) {
+        vm.messages[i].push({labels: vm.messages.labels})
+      }
+
+    }
   })
 }());

@@ -9,7 +9,8 @@
     bindings: {
       checkall: '&',
       readall: '&',
-      unreadall: '&'
+      unreadall: '&',
+      addlabel: '&'
     }
     // in the inbox.template.html write: <toolbar dis="$ctrl.disabled"><toolbar>
 
